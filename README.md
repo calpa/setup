@@ -17,7 +17,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ```bash
 $ git clone git@github.com:calpa/setup.git
 $ cd setup
-$ pwd | ln -s -f "$PWD/.zshrc" ~/.zshrc
+$ ln -s "$PWD/.zshrc" ~/.zshrc
 ```
 
 ## tmux

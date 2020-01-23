@@ -2,7 +2,7 @@ export ZSH="/Users/$USER/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git zsh-nvm z zsh-autosuggestions)
+plugins=(git zsh-nvm zsh-z zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
