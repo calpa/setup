@@ -22,9 +22,10 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ### Config
 
 ```bash
-$ git clone git@github.com:calpa/setup.git
-$ cd setup
-$ ln -s "$PWD/.zshrc" ~/.zshrc
+git clone git@github.com:calpa/setup.git
+cd setup
+rm ~/.zshrc
+ln -s "$PWD/.zshrc" ~/.zshrc
 ```
 
 #### zsh-z
@@ -44,6 +45,14 @@ git clone https://github.com/lukechilds/zsh-nvm $ZSH_CUSTOM/plugins/zsh-nvm
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+#### thefuck
+
+```
+sudo apt update
+sudo apt install python3-dev python3-pip python3-setuptools
+sudo pip3 install thefuck
 ```
 
 ## tmux

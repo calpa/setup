@@ -1,4 +1,4 @@
-export ZSH="/Users/$USER/.oh-my-zsh"
+export ZSH=~/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
 
@@ -10,4 +10,4 @@ alias rm=trash
 eval $(thefuck --alias)
 
 tmux new -A -s mySession
-source /root/.config/broot/launcher/bash/br
+source ~/.config/broot/launcher/bash/br
